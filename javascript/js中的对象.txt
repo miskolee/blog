@@ -1,24 +1,24 @@
-ÔÚjsÖÐ£¬ÎÒÃÇ¿ÉÒÔÇáÒ×µÄ¿´µ½ function(){} ,{}ÕâÁ½ÖÖ¶ÔÏóÉùÃ÷·½Ê½¡£
+ï»¿åœ¨jsä¸­ï¼Œæˆ‘ä»¬å¯ä»¥è½»æ˜“çš„çœ‹åˆ° function(){} ,{}è¿™ä¸¤ç§å¯¹è±¡å£°æ˜Žæ–¹å¼ã€‚
 
-Èç¹û 
+å¦‚æžœ 
 var obj = function(){
 this.id =1;
 this.name='misko_lee';
 }
-ÒÔ¼°ÓÐ
+ä»¥åŠæœ‰
 
 var obj2={
 id:1,
 name:'misko_lee'
 }
 
-obj Óëobj2 ¶¼ÊÇobject¡£µ«ÊÇËûÃÇÊÇÍêÈ«²»Í¬µÄ
+obj ä¸Žobj2 éƒ½æ˜¯objectã€‚ä½†æ˜¯ä»–ä»¬æ˜¯å®Œå…¨ä¸åŒçš„
 
-objÊôÓÚÉùÃ÷¶ÔÏó¡£ÉùÃ÷¹¹Ôì¶ÔÏóµÄ¹æÔò¡£
-ÕæÕýµÄ¶ÔÏóÒªµ½ var testObj = new obj(); //´ËÊ±²ÅÓÐÕæÕýµÄ¶ÔÏó¡£
+objå±žäºŽå£°æ˜Žå¯¹è±¡ã€‚å£°æ˜Žæž„é€ å¯¹è±¡çš„è§„åˆ™ã€‚
+çœŸæ­£çš„å¯¹è±¡è¦åˆ° var testObj = new obj(); //æ­¤æ—¶æ‰æœ‰çœŸæ­£çš„å¯¹è±¡ã€‚
 
-¶øobj2 ÊÇ¶¨Òå¶ÔÏó¡£obj2¾ÍÊÇÒ»¸öÊµÊµÔÚÔÚµÄ¶ÔÏó¡£¿É testObjÊÇÒ»»ØÊÂ¡£
+è€Œobj2 æ˜¯å®šä¹‰å¯¹è±¡ã€‚obj2å°±æ˜¯ä¸€ä¸ªå®žå®žåœ¨åœ¨çš„å¯¹è±¡ã€‚å¯ testObjæ˜¯ä¸€å›žäº‹ã€‚
 
-Òò´Ë£¬Ò²¾ÍÊÇËµ,
-function(){}ÊÇ¶ÔÏó¹¤³§,new ³ö¶ÔÏóÊµÌå¡£{}ÔòÊÇÖ±½ÓÔìÒ»¸ö¶ÔÏóÊµÌå¡£
+å› æ­¤ï¼Œä¹Ÿå°±æ˜¯è¯´,
+function(){}æ˜¯å¯¹è±¡å·¥åŽ‚,new å‡ºå¯¹è±¡å®žä½“ã€‚{}åˆ™æ˜¯ç›´æŽ¥é€ ä¸€ä¸ªå¯¹è±¡å®žä½“ã€‚
 
